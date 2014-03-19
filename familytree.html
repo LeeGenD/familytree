@@ -1,0 +1,51 @@
+﻿<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <script type="text/javascript" src="./jquery.js"></script>
+
+    <script type="text/javascript" src="./normal.js"></script>
+    <link rel="stylesheet" href="./action.css" type="text/css" media="screen" />
+  </head>
+  <body oncontextmenu='return true' ondragstart='return false' onselectstart='return false' onselect='document.selection.empty()' oncopy='document.selection.empty()' onbeforecopy='return false'>
+    
+	<canvas id="node_canvas"></canvas>
+	
+	<div style="display:none;">
+		<img id="img" src="./element/new.png" />
+		<img id="img_small" src="./element/new_small.png" />
+		<img id="img_small2" src="./element/new_small2.png" />
+		
+		<img id="info_head" src="./element/header.png" />
+		<img id="info_mid" src="./element/mid.png" />
+		<img id="info_footer" src="./element/footer.png" />
+	</div>
+	
+	
+	<div id="alert">
+		<img src="./element/alert/left.png" /><span class="content"></span><img src="./element/alert/right.png" />
+	</div>
+	
+    <div class="enter">
+      <div class="link">
+	<a href="/ft" class="selected" onclick="return false">
+	  Tree
+	</a>
+      </div>
+      <div class="link" style="display:none;">
+	<a href="/normal">
+	  Normal
+	</a>
+      </div>
+      <div class="link">
+	<a href="./about.html">
+	  关于
+	</a>
+      </div>
+    </div>
+
+    <div id="page_foot" class="">
+      <p>Copy right © Unique Studio All Rights Reserved</p>
+    </div>
+    <script type="text/javascript" src="./allcanvas.new.js"></script>
+  </body>
+</html>

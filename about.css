@@ -1,0 +1,126 @@
+#logo {
+    margin-top: 18px;
+}
+.contact {
+    line-height: 200%;
+}
+a:visited {
+}
+#page_body_about {
+    line-height: 200%;
+    text-align: left;
+}
+#page_body_about p{
+    text-indent: 2em;
+}
+#sns_link img {
+    width: 45px;
+}
+#sns_link span {
+    margin: 8px;
+}
+#head {
+    margin: 0 auto 50px;
+    width: 800px;
+}
+body {
+    background-image: url("./element/bg.png");
+    height: 100%;
+    width: 100%;
+}
+#page_foot {
+    bottom: 0;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#page_body {
+    margin: 0 auto;
+    text-align: center;
+    width: 650px;
+}
+* {
+    font-family: AxureHandwritingRegular;
+    margin: 0;
+}
+@font-face {
+    font-family: "AxureHandwritingRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./font/axurehandwriting-webfont.eot?#iefix") format("embedded-opentype"), url("./font/axurehandwriting-webfont.woff") format("woff"), url("./font/axurehandwriting-webfont.ttf") format("truetype"), url("./font/axurehandwriting-webfont.svg#AxureHandwritingRegular") format("svg");
+}
+#normal_button {
+    background-image: url("./element/TREE.png");
+    bottom: 30px;
+    cursor: pointer;
+    height: 91px;
+    position: absolute;
+    right: 115px;
+    width: 91px;
+}
+#tree_button {
+    background-image: url("./element/TREE.png");
+    bottom: 30px;
+    cursor: pointer;
+    height: 91px;
+    position: absolute;
+    right: 220px;
+    width: 91px;
+}
+#about_button {
+    background-image: url("./element/TREE.png");
+    bottom: 30px;
+    cursor: pointer;
+    height: 91px;
+    position: absolute;
+    right: 10px;
+    width: 91px;
+}
+#about_button p {
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top: 32px;
+}
+.text_link {
+    position: relative;
+    top: -16px;
+}
+#normal_button p {
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top: 32px;
+}
+#tree_button p {
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    top: 32px;
+}
+
+
+.enter{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.enter .link{
+    display: inline-block;
+    width: 90px;
+    height: 91px;
+    margin: 0 5px;
+    text-align: center;
+    background: url("./element/TREE.png");
+    zoom: 1;
+}
+.enter .link a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 91px;
+}
+.enter .link a.selected{
+    font-weight: bold;
+}

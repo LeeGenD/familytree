@@ -11,4 +11,4 @@ familytree
 
 点击右上角的展开来展开下一级节点
 
-**[demo地址](http://leegend.github.io/familytree "familytree demo")**
+**[demo地址](http://leegend.github.io/familytree/familytree.html "familytree demo")**

@@ -9,6 +9,6 @@ familytree
 
 ##展开##
 
-点击右上角的展开来展开下一级节点
+点击节点可以生成子节点
 
 **[demo地址](http://leegend.github.io/familytree/familytree.html "familytree demo")**
